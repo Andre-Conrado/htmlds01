@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body{
+    
+
+}
+
+#site{
+
+    width: 1350px;
+    height: 1000px;
+    margin-top: 0;
+    margin-left: -4px;
+    margin-bottom: 0;
+    margin-right: auto;
+    background-color: white;
+
+}
+
+#header{
+    width: 1350px;
+    height: 400px;
+    background-color: rgb(141, 141, 236);
+    margin-top: -8px;
+    margin-left: -4px;
+    margin-bottom: 0;
+    margin-right: auto;
+
+}
+#conteudo{
+    width: 1350px;
+    height: 550px;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: -4px;
+    margin-bottom: 0px;
+    margin-right: auto;
+
+}
+
+#conteudo_left{
+    width: 420px;
+    height: 500px;
+    float: left;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+    text-indent: 40px;
+    padding: 15px;
+    
+
+
+}
+
+img#cont_left{
+    display: block;
+    margin-top: 80px;
+    margin-left: 65px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(150, 147, 147, 0.788);
+    border-radius: 20px;
+    
+}
+
+#conteudo_centro{
+    width: 450px;
+    height: 530px;
+    float: left;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    text-align: justify;
+    text-indent: 40px;
+    padding: 15px;
+}
+
+#conteudo_right{
+    width: 420px;
+    height: 500px;
+    float: left;
+    background-color: white
+}
+
+#footer{
+    width: 1350px;
+    height: 50px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: -4px;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+
+nav#menu {
+    display: block;
+    
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase; /* torna maiuscula*/
+    position: absolute;
+    top: 20px;
+    left: 730px;
+}
+
+nav#menu li:hover{
+    background-color: rgba(211, 208, 208, 0.747);
+   
+}
+li#home {
+    border-radius: 5px;
+}
+
+li#nossahistoria {
+    border-radius: 5px;
+}
+
+li#foto {
+    border-radius: 5px;
+}
+
+li#videos {
+    border-radius: 5px;
+}
+
+li#falec {
+    border-radius: 5px;
+}
+
+nav#menu li {
+    display: inline-block; /*bloco de linha */
+    background-color: rgba(197, 192, 192, 0.281);
+    padding: 5px;
+    margin: 2px;
+}
+
+nav#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
