@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 body{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(223, 219, 219);
     
 
 }
@@ -31,11 +34,39 @@ body{
     width: 1350px;
     height: 550px;
     background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    text-align: justify;
+    text-indent: 40px;
+    margin-top: 30px;
     margin-top: 0px;
     margin-left: -4px;
     margin-bottom: 0px;
     margin-right: auto;
+    
 
+}
+
+#contestrutura{
+    width: 1300px;
+    height: 1000px;
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    text-align: justify;
+    text-indent: 40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+h2#estrutura{
+    text-align: center;
 }
 
 #conteudo_left{
@@ -44,13 +75,27 @@ body{
     float: left;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10pt;
+    font-size: 13pt;
     text-align: justify;
     text-indent: 40px;
+    margin-top: 30px;
     padding: 15px;
     
+}
 
+h1#titulo {
+    text-align: center;
+}
 
+h3#h3conteudo{
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img#top {
+    width: 1350px;
+    height: 400px;
 }
 
 img#cont_left{
@@ -69,7 +114,7 @@ img#cont_left{
     float: left;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10pt;
+    font-size: 13pt;
     text-align: justify;
     text-indent: 40px;
     padding: 15px;
@@ -97,54 +142,6 @@ img#cont_left{
 
 
 
-nav#menu {
-    display: block;
-    
-}
-
-nav#menu ul{
-    list-style: none;
-    text-transform: uppercase; /* torna maiuscula*/
-    position: absolute;
-    top: 20px;
-    left: 730px;
-}
-
-nav#menu li:hover{
-    background-color: rgba(211, 208, 208, 0.747);
-   
-}
-li#home {
-    border-radius: 5px;
-}
-
-li#nossahistoria {
-    border-radius: 5px;
-}
-
-li#foto {
-    border-radius: 5px;
-}
-
-li#videos {
-    border-radius: 5px;
-}
-
-li#falec {
-    border-radius: 5px;
-}
-
-nav#menu li {
-    display: inline-block; /*bloco de linha */
-    background-color: rgba(197, 192, 192, 0.281);
-    padding: 5px;
-    margin: 2px;
-}
-
-nav#menu a {
-    color: white;
-    text-decoration: none;
-}
 
 
 
