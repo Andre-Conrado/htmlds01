@@ -1,15 +1,12 @@
 @charset "UTF-8";
 
-body{
+body {
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(223, 219, 219);
-    
-
+    background-color: white;
 }
 
-#site{
-
+#site {
     width: 1350px;
     height: 1000px;
     margin-top: 0;
@@ -17,10 +14,9 @@ body{
     margin-bottom: 0;
     margin-right: auto;
     background-color: white;
-
 }
 
-#header{
+#header {
     width: 1350px;
     height: 400px;
     background-color: rgb(141, 141, 236);
@@ -28,9 +24,9 @@ body{
     margin-left: -4px;
     margin-bottom: 0;
     margin-right: auto;
-
 }
-#conteudo{
+
+#conteudo {
     width: 1350px;
     height: 550px;
     background-color: white;
@@ -44,11 +40,9 @@ body{
     margin-left: -4px;
     margin-bottom: 0px;
     margin-right: auto;
-    
-
 }
 
-#contestrutura{
+#contestrutura {
     width: 1300px;
     height: 1000px;
     background-color: white;
@@ -62,14 +56,29 @@ body{
     margin-right: 0px;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
-h2#estrutura{
+#contestruturaform {
+    width: 1300px;
+    height: 700px;
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    text-align: justify;
+    text-indent: 40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2#estrutura {
     text-align: center;
 }
 
-#conteudo_left{
+#conteudo_left {
     width: 420px;
     height: 500px;
     float: left;
@@ -78,16 +87,15 @@ h2#estrutura{
     font-size: 13pt;
     text-align: justify;
     text-indent: 40px;
-    margin-top: 30px;
+    margin-top: 0px;
     padding: 15px;
-    
 }
 
 h1#titulo {
     text-align: center;
 }
 
-h3#h3conteudo{
+h3#h3conteudo {
     text-align: center;
     color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -98,18 +106,17 @@ img#top {
     height: 400px;
 }
 
-img#cont_left{
+img#cont_left {
     display: block;
     margin-top: 80px;
     margin-left: 65px;
     text-align: center;
     box-shadow: 5px 5px 5px rgba(150, 147, 147, 0.788);
     border-radius: 20px;
-    
 }
 
-#conteudo_centro{
-    width: 450px;
+#conteudo_centro {
+    width: 420px;
     height: 530px;
     float: left;
     color: black;
@@ -120,14 +127,20 @@ img#cont_left{
     padding: 15px;
 }
 
-#conteudo_right{
+#conteudo_right {
     width: 420px;
     height: 500px;
     float: left;
-    background-color: white
+    float: left;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13pt;
+    text-align: justify;
+    text-indent: 40px;
+    padding: 15px;
 }
 
-#footer{
+#footer {
     width: 1350px;
     height: 50px;
     background-color: white;
@@ -138,11 +151,13 @@ img#cont_left{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
+#footersurg {
+    width: 1350px;
+    height: 50px;
+    background-color: white;
+    margin-top: 600px;
+    margin-left: -4px;
+    margin-bottom: auto;
+    margin-right: auto;
+    text-align: center;
+}
